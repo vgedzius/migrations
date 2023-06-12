@@ -4,9 +4,6 @@ declare(strict_types=1);
 
 namespace Doctrine\Migrations\Version;
 
-use Symfony\Component\Console\Attribute\AsCommand;
-
-#[AsCommand(name: 'migrations:version', description: 'Manually add and delete migration versions from the version table.')]
 final class Version
 {
     private string $version;
